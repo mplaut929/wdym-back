@@ -24,14 +24,7 @@ class MemesController < ApplicationController
     end
   end
 
-  # PATCH/PUT /memes/1
-  def update
-    if @meme.update(meme_params)
-      render json: @meme
-    else
-      render json: @meme.errors, status: :unprocessable_entity
-    end
-  end
+  
 
 
   private
