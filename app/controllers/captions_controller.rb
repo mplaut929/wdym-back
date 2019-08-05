@@ -24,16 +24,8 @@ class CaptionsController < ApplicationController
     end
   end
 
-  # PATCH/PUT /captions/1
-  def update
-    if @caption.update(caption_params)
-      render json: @caption
-    else
-      render json: @caption.errors, status: :unprocessable_entity
-    end
-  end
 
-  
+
 
   private
     # Use callbacks to share common setup or constraints between actions.
