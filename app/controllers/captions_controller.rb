@@ -33,10 +33,7 @@ class CaptionsController < ApplicationController
     end
   end
 
-  # DELETE /captions/1
-  def destroy
-    @caption.destroy
-  end
+  
 
   private
     # Use callbacks to share common setup or constraints between actions.
